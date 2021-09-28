@@ -23,7 +23,7 @@ Associating the key with your email address helps you to identify the key later 
 Just press <Enter> to accept the default location and file name. If the .ssh directory doesn't exist, the system creates one for you.
 Enter, and re-enter, a passphrase when prompted. The whole interaction will look similar to this:
 
-3. clone the repository to your local machine (git@gitlab.com:t2803/io.git)
+3. clone the repository to your local machine (git@gitlab.com:murali08211/registergame.git)
 4. Run npm install to install dependencies.
 5. Run npm run test (to run the test in terminal in headless mode)
 6. Run npx cypress open (to run the test in terminal in head mode)
