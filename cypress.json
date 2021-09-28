@@ -1,0 +1,14 @@
+{
+    "projectId": "mdwcsp",
+    "integrationFolder": "cypress/integration",
+    "baseUrl": "https://www.mainstagebingo.com/",
+    "numTestsKeptInMemory": 5,
+    "env": {
+        "username": "testuser3636@io.co.za",
+        "password": "Password!@!@3636"
+    },
+    "video": false,
+    "retries": {
+        "runMode": 2
+    }
+}
