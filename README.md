@@ -1,8 +1,11 @@
 **Prerequisites**
 
 node
+
 npm
+
 git
+
 docker
 
 
