@@ -1,7 +1,5 @@
 [
   {
-    "name": "test",
-    "lastName": "Gamer",
     "gender": "Male",
     "dob": "23011991",
     "underAgeDob":"23012010",
@@ -14,8 +12,6 @@
     "viewport": "macbook-15"
   },
   {
-    "name": "test",
-    "lastName": "Gamer",
     "gender": "Male",
     "dob": "23011991",
     "underAgeDob":"23012010",

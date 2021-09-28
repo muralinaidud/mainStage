@@ -10,7 +10,7 @@ describe('customer registration journey', () => {
         });
 
       });
-      it('should display today and overview section with details in dashboard page ', () => {
+      it('should complete the registration process with unique customer details', () => {
       const uuid1 = () => Cypress._.random(0, 1e6)
       const id1 = uuid1()
       const faker = require('faker');
@@ -30,18 +30,14 @@ describe('customer registration journey', () => {
       cy.get('[id="dob"]').clear();
       cy.get('[id="dob"]').type(data.dob)
       cy.get('.form-text.text-danger').should('not.exist')
-
       cy.get('[id="country"]').select(data.country)
       cy.get('@Button').click()
       cy.url().should('include', 'https://www.mainstagebingo.com/create-account/address-details')
       cy.get('h1').should('have.text', 'Hi ' + firstName)
       const emailAddress = data.email + `${id1}` + "@whitehatgaming.com"
-
       cy.get('[id="email"]').type(emailAddress)
-
-       const uuid2 = () => Cypress._.random(0, 1e11)
-
-            const id2 = uuid2()
+      const uuid2 = () => Cypress._.random(0, 1e11)
+      const id2 = uuid2()
       cy.get('@Button').should('be.disabled')
       cy.get('[id="phone"]').type(id2)
       cy.get('[type="search"]').type('Triq')
