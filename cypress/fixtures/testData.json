@@ -10,18 +10,6 @@
     "username": "dobautotest",
     "password": "password1x1",
     "viewport": "macbook-15"
-  },
-  {
-    "gender": "Male",
-    "dob": "23011991",
-    "underAgeDob":"23012010",
-    "country": "MALTA",
-    "email": "Dob.ijacic",
-    "phoneNumber": "",
-    "address": "",
-    "username": "dobautotest",
-    "password": "password1x1",
-    "viewport": "iphone-6"
   }
 
 ]
