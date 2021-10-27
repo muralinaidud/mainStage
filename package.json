@@ -9,10 +9,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@testing-library/cypress": "^7.0.6",
     "cypress": "^7.5.0",
     "cypress-cucumber-preprocessor": "^4.1.2",
-    "multiple-cucumber-html-reporter": "^1.18.0",
-    "@testing-library/cypress": "^7.0.6"
+    "eslint-plugin-cypress": "^2.12.1",
+    "multiple-cucumber-html-reporter": "^1.18.0"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
